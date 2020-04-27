@@ -7,7 +7,9 @@ export default function Form(props) {
   return (
     <form onSubmit={handleSubmit}>
       <div className='text-field'>
-        <label>Input bookmark</label>
+        <label>
+          Input bookmark <i className='fas fa-bookmark'></i>
+        </label>
         <input
           type='text'
           name='title'
@@ -17,7 +19,9 @@ export default function Form(props) {
         />
       </div>
       <div className='text-field'>
-        <label>Input URL</label>
+        <label>
+          Input URL <i className='fas fa-link'></i>
+        </label>
         <input
           type='text'
           name='url'
@@ -27,7 +31,9 @@ export default function Form(props) {
         />
       </div>
       <div className='text-field'>
-        <label>Input group</label>
+        <label>
+          Input group <i className='fas fa-layer-group'></i>
+        </label>
         <input
           type='text'
           name='groupName'
@@ -37,9 +43,11 @@ export default function Form(props) {
         />
       </div>
       <div className='button-group'>
-        <button type='submit'>Submit</button>
+        <button type='submit'>
+          <i className='fas fa-arrow-up'></i> Submit
+        </button>
         <button type='button' onClick={clearInputTexts}>
-          Clear
+          <i className='fas fa-backspace'></i> Clear
         </button>
       </div>
     </form>

@@ -42,7 +42,7 @@ function App() {
     <div className='container'>
       <header>
         <img src={logo} className='app-logo' alt='logo' />
-        Bookmarks
+        Sieg's Bookmarks
       </header>
       <aside>
         <Sidebar />

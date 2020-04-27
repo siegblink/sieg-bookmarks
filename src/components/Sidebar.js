@@ -4,13 +4,19 @@ export default function Sidebar() {
   return (
     <ul>
       <li>
-        <a href='/important'>Important</a>
+        <a href='/important'>
+          <i className='fas fa-star'></i> Important
+        </a>
       </li>
       <li>
-        <a href='github'>Github</a>
+        <a href='github'>
+          <i className='fab fa-github'></i> Github
+        </a>
       </li>
       <li>
-        <a href='/tools'>Tools</a>
+        <a href='/tools'>
+          <i className='fas fa-tools'></i> Tools
+        </a>
       </li>
     </ul>
   )

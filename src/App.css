@@ -56,6 +56,8 @@
   font-size: calc(2px + 1vmin);
   border-top: 1px solid hsl(0, 0%, 40%);
   display: grid;
+  gap: 0.3rem;
+  grid-template-columns: max-content 1fr;
   align-items: center;
   grid-area: footer;
 }
@@ -82,12 +84,17 @@
 /* Sidebar list item styles */
 .container > aside > ul li {
   padding: 1rem 1.5rem 0;
+  font-size: calc(3px + 1vmin);
 }
 
 /* Sidebar list item link styles */
 .container > aside > ul li a {
   text-decoration: none;
   color: hsl(0, 0%, 70%);
+}
+
+.container > aside > ul li a i {
+  margin-right: 0.5rem;
 }
 
 /* Form styles */
@@ -122,6 +129,11 @@
 
 .container > article > form .button-group > * + * {
   margin-left: 1rem;
+}
+
+/* Form button icon styles */
+.container > article > form .button-group i {
+  margin-right: 0.3rem;
 }
 
 /* Form submit button styles */
