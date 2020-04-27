@@ -1,3 +1,7 @@
+# `sieg's bookmarks`
+
+This web app is custom bookmark application built using React.js.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
